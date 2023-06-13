@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Orbitron:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
+html{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+}
+
+#button{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    background-color: rgb(181, 181, 181);
+    font-size: 24px;
+    box-shadow: 0px 0px 20px 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-container{
+    background: rgb(154, 154, 154);
+    padding: 20px;
+    border: 2px black;
+    border-radius: 10px;
+}
